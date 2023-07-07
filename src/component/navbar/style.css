@@ -1,0 +1,62 @@
+.navs{
+    background: url('../../../public/images/cover.jpg')no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.nav-bar{
+    background-color: rgba(219, 5, 5, 0.5);
+    position: relative !important;
+}
+.navs .nav_links{
+    color: #fff !important;
+    padding: 10px 15px !important;
+    margin-top: 10px !important;
+    position:relative !important;
+}
+.button{
+    padding-top: 10px;
+    margin-left: 50px;
+}
+.button button{
+    background-color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    font-weight: bold;
+}
+.banner{
+    text-align: center;
+    padding: 100px 0px;
+    font-family: serif;
+  background-color: rgba(0,0,0,.5);
+}
+.banner h1{
+    margin: 50px 0px;
+    font-weight: 550;
+    font-size: 50px;
+    line-height: 70px;
+}
+.banner button{
+    border: none;
+    background-color: rgb(110, 14, 86);
+    padding: 10px 30px;
+    color: #ffff;
+    font-size: 20px;
+    border-radius: 50px;
+}
+.dropdown{
+    position:absolute !important;
+    background-color:#fff;
+    padding: 20px 10px;
+    margin-top: 9px;
+    display: none;
+}
+.dropdown li{
+    color:black;
+    padding: 10px 20px;
+    width: 230px;
+    font-size: 17px;
+    font-weight: 550;
+}
+.navs .nav_links:hover .dropdown{
+    display: block;
+}
